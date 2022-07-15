@@ -144,3 +144,19 @@ git remote set-url origin https://github.com/Mr-Mamont/control_version.git
 
 * git remote rm origin
 * git remote add origin https://github.com/Mr-Mamont/control_version.git
+
+# **C#** 
+
+* **Console** – это нечто позволяеющее нам работать с окном терминала. Через console мы обращаемся к системному терминалу.
+* **Dotnet new console** – создать новый проект
+* **Dotnet run** – запустить проект
+* **Write();** Вывод в одну строку
+* **WriteLine();** В конце перейти на новую строку. Команда или оператор нужна нам для того чтобы мы смогли вывести что то в окно терминала. Например текст который пишется в ("текст");
+* **ReadLine();** Считать строку из терминала
+
+### Код:
+1. Console.WriteLine("Введите ваше имя");
+2. string username = Console.ReadLine();
+3. Console.WriteLine("Привет, ");
+4. Console.WriteLine(username);
+
